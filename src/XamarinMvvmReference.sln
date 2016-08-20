@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMvvmReference.Mvvm.Core", "XamarinMvvmReference.Mvvm.Core\XamarinMvvmReference.Mvvm.Core.csproj", "{09ABDC10-4940-4978-B897-69E0196F30C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMvvmReference.Android", "XamarinMvvmReference.Android\XamarinMvvmReference.Android.csproj", "{5471287C-B206-4520-95EC-40F3AFAABF7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{23A55262-9747-4AD7-BFDF-D19718D24855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{644EAF64-15D8-40C3-9325-BC84A2BBF22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMvvmReference.Models", "XamarinMvvmReference.Models\XamarinMvvmReference.Models.csproj", "{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMvvmReference.Services", "XamarinMvvmReference.Services\XamarinMvvmReference.Services.csproj", "{A8BC5F5C-8628-4A60-AF11-42B39FD1439D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09ABDC10-4940-4978-B897-69E0196F30C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09ABDC10-4940-4978-B897-69E0196F30C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09ABDC10-4940-4978-B897-69E0196F30C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09ABDC10-4940-4978-B897-69E0196F30C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5471287C-B206-4520-95EC-40F3AFAABF7D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BC5F5C-8628-4A60-AF11-42B39FD1439D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BC5F5C-8628-4A60-AF11-42B39FD1439D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BC5F5C-8628-4A60-AF11-42B39FD1439D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BC5F5C-8628-4A60-AF11-42B39FD1439D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09ABDC10-4940-4978-B897-69E0196F30C9} = {644EAF64-15D8-40C3-9325-BC84A2BBF22B}
+		{5471287C-B206-4520-95EC-40F3AFAABF7D} = {23A55262-9747-4AD7-BFDF-D19718D24855}
+		{C8CEE1EE-B9FD-421C-AFA2-73947E9E7132} = {644EAF64-15D8-40C3-9325-BC84A2BBF22B}
+		{A8BC5F5C-8628-4A60-AF11-42B39FD1439D} = {644EAF64-15D8-40C3-9325-BC84A2BBF22B}
+	EndGlobalSection
+EndGlobal
