@@ -3,7 +3,8 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="30dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,5 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        local:MvxBind="Text LastName" />
+        android:text="Last Name"
+        local:MvxBind="Text LastName"
+        android:layout_marginTop="10dp" />
 </LinearLayout>
